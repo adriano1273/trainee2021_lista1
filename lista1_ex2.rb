@@ -20,6 +20,7 @@ while(1)
     a, b, c = gets.split.map {|num| num.to_i }
 
     if(a == 0 && b == 0 && c == 0)
+        p 0
         break
     end
     
