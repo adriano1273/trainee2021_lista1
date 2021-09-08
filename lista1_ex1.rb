@@ -5,7 +5,7 @@ def e_primo?(num)
             cont += 1
         end
     end
-    if (cont > 2) 
+    if (cont > 2 || num == 1) 
         return false
     elsif(cont == 2 && num != 1)
         return true
